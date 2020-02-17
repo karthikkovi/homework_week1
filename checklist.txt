@@ -1,0 +1,31 @@
+GIVEN a webpage meets accessibility standards
+
+WHEN I view the source code
+THEN I find semantic HTML elements
+(Instead of the HTML document being structured with semantic elements, there are a number of div elements that have a class name with the appropriate semantic name, these class names consists of: header, footer, main, aside and nav)
+
+WHEN I view the structure of the HTML elements
+THEN I find that the elements follow a logical structure independent of styling and positioning
+(Elements do follow a logical structure in the HTML file)
+
+WHEN I view the image elements
+THEN I find accessible alt attributes
+(None of the img elements had alt attributes. They have now been added to the file)
+
+
+WHEN I view the heading attributes
+THEN they fall in sequential order
+
+
+WHEN I view the title element
+THEN I find a concise, descriptive title
+(The title element description has been changed from 'website' to 'Horiseon'. This way, the title is more descriptive. Completed)
+
+
+One of the img elements has a closing tag, this is now removed
+
+Got rid of the height property of the ".service" selector. The default height looked much better than the original height
+
+"Benefits h2" property has been changed to "Benefits h3" in style.css and in index.html
+
+"Service h3" property has been changed to "Service h2" in style.css and in index.html
