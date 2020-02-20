@@ -6,10 +6,6 @@
     margin: 0;
 }
 
-img {
-    max-width: 100%;
-}
-
 body {
     background-color: #d9dcd6;
 }
@@ -63,7 +59,7 @@ p {
 /* HERO DIV WITH BACKGROUND IMAGE */
 
 .hero {
-    height: 800px;
+    height: 100vh;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
